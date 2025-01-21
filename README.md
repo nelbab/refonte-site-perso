@@ -1,4 +1,4 @@
-# <h1>refonte de mon site perso</h1>
+# <h1>Refonte de mon site perso</h1>
 <a href="https://github.com/nelbab/projet-herbier-facile/blob/main/conception.md" target="_blank" title="Mon site perso">http://nelly.babin.free.fr </a>  
 <br/>
 
@@ -30,7 +30,7 @@ Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux s
 🎴Ecran ancien site<br />
 <img style="margin: 10px" src="images/ancien-site.png" alt="ancien site" title="ancien site" height="200px" />
 <br />
-🎴Ecran nouveau site<br />
+🎴Ecran nouveau site desktop et mobile<br />
 <img style="margin: 10px" src="images/nouveau-site-desktop.png" alt="nouveau site desktop" title="nouveau site desktop" height="200px" />
 <img style="margin: 10px" src="images/nouveau-site-mobile.png" alt="nouveau site modile" title="nouveau site mobile" height="400px" />
       
@@ -43,7 +43,7 @@ Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux s
 
 <br />
 
-### <h3> 🛠️ Technologies utilisées : </h3>
+## <h2> 🛠️ Technologies utilisées : </h2>
 <div align="center">
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="images/html5.png" alt="HTML5" title="HTML5" height="50" /></a> 
 <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="images/css3.png" alt="CSS3" title="CSS3" height="50" /></a>  
