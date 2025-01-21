@@ -7,11 +7,13 @@
 J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles. À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles."
 ###    • Objectif de la mise à jour : 
 Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web. Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tous les appareils.
-      
+<br />
+
 ## 2. 🔭 Évaluation de l'état du site précédent
 ###    • Technologies obsolètes :
         ◦ Mon site utilisait des technologies comme des tables HTML, Flash pour la mise en page et un design fixe. Ces technologies sont désormais dépassées et incompatibles avec la plupart des navigateurs modernes.
         ◦ Le design était rigide et ne s'adaptait pas aux différentes tailles d'écran.
+<br />
 
 ## 3. 🛠️ Les changements apportés
 ###    • Design et interface :
@@ -23,17 +25,19 @@ Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux s
 ###    • Optimisation mobile :
         ◦ Assurez-vous que le site est pleinement responsive, ce qui permet une expérience fluide sur tous types de périphériques.
         ◦ J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page.
+<br />
 
 ## 4.🖥️ Comparaison avant/après
 ###    • Visuels :
-        ◦ Voici une capture d'écran de la version 2003, et ci-dessous, la nouvelle version du site après la mise à jour.
+        ◦ Voici des captures d'écran de la version 2003, et ci-dessous, la nouvelle version du site après la mise à jour.
 🎴Ecran ancien site<br />
 <img style="margin: 10px" src="images/ancien-site.png" alt="ancien site" title="ancien site" height="200px" />
 <br />
 🎴Ecran nouveau site desktop et mobile<br />
 <img style="margin: 10px" src="images/nouveau-site-desktop.png" alt="nouveau site desktop" title="nouveau site desktop" height="200px" />
 <img style="margin: 10px" src="images/nouveau-site-mobile.png" alt="nouveau site modile" title="nouveau site mobile" height="400px" />
-      
+ <br />
+
 ## 5. 🎯 Conclusion et perspectives
 ###    • Bilan de la mise à jour :
         ◦ La refonte a permis d'offrir une meilleure expérience utilisateur, de sécuriser le site et d'améliorer sa visibilité sur le web.
