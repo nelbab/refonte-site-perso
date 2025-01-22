@@ -1,4 +1,4 @@
-# <h1>Refonte de mon site perso</h1>
+# <h1>☀️ Refonte de mon site perso ☀️</h1>
 <a href="https://github.com/nelbab/projet-herbier-facile/blob/main/conception.md" target="_blank" title="Mon site perso">http://nelly.babin.free.fr </a>  
 <br/>
 
