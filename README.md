@@ -4,12 +4,13 @@
 
 ## 1. 🚀 Introduction : Contexte et Objectifs
 ###    • Contexte initial : 
-J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles. 
-À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.
-En 2006, après ma formation PAO au Greta, j'ai amélioré le design du site. En 2021, j'ai remplacé les animations en flash par des images.
+J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles.<br />
+À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.<br />
+En 2006, après ma formation PAO au Greta, j'ai amélioré le design du site. <br />
+En 2021, j'ai remplacé les animations en flash par des images.<br />
 Le contenu du site a évolué aux cours de ces années.
 ###    • Objectif de la mise à jour : 
-Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web. 
+Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web.<br /> 
 Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tous les appareils.
 <br />
 
