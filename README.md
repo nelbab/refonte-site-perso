@@ -4,14 +4,19 @@
 
 ## 1. 🚀 Introduction : Contexte et Objectifs
 ###    • Contexte initial : 
-J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles. À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles."
+J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles. 
+À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.
+En 2006, après ma formation PAO au Greta, j'ai amélioré le design du site. En 2021, j'ai remplacé les animations en flash par des images.
+Le contenu du site a évolué aux cours de ces années.
 ###    • Objectif de la mise à jour : 
-Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web. Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tous les appareils.
+Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web. 
+Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tous les appareils.
 <br />
 
 ## 2. 🔭 Évaluation de l'état du site précédent
 ###    • Technologies obsolètes :
-        ◦ Mon site utilisait des technologies comme des tables HTML, Flash pour la mise en page et un design fixe. Ces technologies sont désormais dépassées et incompatibles avec la plupart des navigateurs modernes.
+        ◦ Mon site utilisait des technologies comme des tables HTML, Flash pour la mise en page et un design fixe. 
+        Ces technologies sont désormais dépassées et incompatibles avec la plupart des navigateurs modernes.
         ◦ Le design était rigide et ne s'adaptait pas aux différentes tailles d'écran.
 <br />
 
