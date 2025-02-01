@@ -1,8 +1,9 @@
 # <h1>☀️ Refonte de mon site perso ☀️</h1>
-<a href="https://github.com/nelbab/projet-herbier-facile/blob/main/conception.md" target="_blank" title="Mon site perso">http://nelly.babin.free.fr </a>  
+<a href="http://nelly.babin.free.fr" target="_blank" title="Mon site perso">http://nelly.babin.free.fr </a>  
 <br/>
 
-## 1. 🚀 Introduction : Contexte et Objectifs
+## 1. 🚀 Introduction : Contexte et Objectif
+
 ###    • Contexte initial : 
 J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles.<br />
 À l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.<br />
