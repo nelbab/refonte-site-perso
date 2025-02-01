@@ -33,6 +33,7 @@ Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tou
         ◦ Assurez-vous que le site est pleinement responsive, ce qui permet une expérience fluide sur tous types de périphériques.
         ◦ J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page.
 <br />
+<a href="https://github.com/nelbab/refonte-site-perso/blob/main/changements.md" target="_blank" title="détail des changements">Détail des changements </a>  <br/>
 
 ## 4.🖥️ Comparaison avant/après
 ###    • Visuels :
