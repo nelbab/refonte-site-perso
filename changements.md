@@ -41,5 +41,6 @@
 - En conclusion, la meilleure technologie pour créer une horloge est Javascript.
 Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
+<a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Mon CV">Page avec les horloges</a>
 <br />
 <a href="https://github.com/nelbab/refonte-site-perso/blob/main/codeHorloge.md" target="_blank" title="Détail des codes ">Détail des codes </a>  <br/>
