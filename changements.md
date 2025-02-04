@@ -33,12 +33,12 @@
 
 <a href="http://nelly.babin.free.fr/realis.html" target="_blank" title="Mon CV">Mes réalisations</a>
 
-## 4. 🕰️ Horloges en différents langages
+## 5. 🕰️ Horloges en différents langages
 
 - Utilisation de la technique des cards pour une meilleure visibilité.
 - Pour Python, j'ai changé de technologie pour l'exécution côté client. J'ai remplacé pyscript par Pyodide.
 - Pour PHP, l'actualisation de l'heure se fait avec Javascript.
-- En conclusion, la meilleure technologie pour créer une horloge est Javascript.
+- 🎯En conclusion, la meilleure technologie pour créer une horloge est Javascript.
 Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
 <a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Mon CV">Page avec les horloges</a>
