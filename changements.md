@@ -44,3 +44,14 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 <a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Mon CV">Page avec les horloges</a>
 <br />
 <a href="https://github.com/nelbab/refonte-site-perso/blob/main/codeHorloge.md" target="_blank" title="Détail des codes ">Détail des codes </a>  <br/>
+
+## 6. 🌴 Refonte du site du restaurant Le Cocotier
+
+- Site en React V19
+  
+<a href="http://le-cocotier-react.s3-website.eu-west-3.amazonaws.com/" target="_blank" title="Page de la refonte React">Page de la refonte React</a>
+<br />
+
+- Site en Angular
+
+<a href="https://github.com/nelbab/refonte-site-perso/blob/main/refonte-le-cocotier.md" target="_blank" title="Détail des 2 refontes">Détail des 2 refontes </a>  <br/>

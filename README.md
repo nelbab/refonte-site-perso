@@ -10,6 +10,7 @@ J'ai créé ce site personnel en 2003 pour partager mes projets et expériences 
 En 2006, après ma formation PAO au Greta, j'ai amélioré le design du site. <br />
 En 2021, j'ai remplacé les animations en flash par des images.<br />
 Le contenu du site a évolué aux cours de ces années.
+
 ###    • Objectif de la mise à jour : 
 Le site devenait obsolète, difficile à maintenir et n'était pas adapté aux standards modernes du web.<br /> 
 Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tous les appareils.
@@ -37,7 +38,7 @@ Je souhaitais le rendre plus attrayant, accessible et facile à naviguer sur tou
 
 ## 4.🖥️ Comparaison avant/après
 ###    • Visuels :
-        ◦ Voici des captures d'écran de la version 2003, et ci-dessous, la nouvelle version du site après la mise à jour.
+        ◦ Voici des captures d'écran de la version 2006, et ci-dessous, la nouvelle version du site après la mise à jour.
 🎴Ecran ancien site<br />
 <img style="margin: 10px" src="images/ancien-site.png" alt="ancien site" title="ancien site" height="200px" />
 <br />
