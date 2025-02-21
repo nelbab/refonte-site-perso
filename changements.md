@@ -24,14 +24,14 @@
 - Utilisation de histogrammes générés avec python.
 - Ajout de prévisions météo de la Tessoualle.
 
-<a href="http://nelly.babin.free.fr/meteo/index.php" target="_blank" title="Mon CV">Ma page météo</a>
+<a href="http://nelly.babin.free.fr/meteo/index.php" target="_blank" title="Ma page météo">Ma page météo</a>
 <br/><br/>
 
 ## 4. 🛠️ Réalisations
 
 - Utilisation de la technique des cards pour une meilleure visibilité.
 
-<a href="http://nelly.babin.free.fr/realis.html" target="_blank" title="Mon CV">Mes réalisations</a>
+<a href="http://nelly.babin.free.fr/realis.html" target="_blank" title="Mes réalisations">Mes réalisations</a>
 
 ## 5. 🕰️ Horloges en différents langages
 
@@ -41,7 +41,7 @@
 - 🎯En conclusion, la meilleure technologie pour créer une horloge est Javascript.
 Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
-<a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Mon CV">Page avec les horloges</a>
+<a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Page avec les horloges">Page avec les horloges</a>
 <br />
 <a href="https://github.com/nelbab/refonte-site-perso/blob/main/codeHorloge.md" target="_blank" title="Détail des codes ">Détail des codes </a>  <br/>
 
@@ -55,3 +55,14 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 - Site en Angular
 
 <a href="https://github.com/nelbab/refonte-site-perso/blob/main/refonte-le-cocotier.md" target="_blank" title="Détail des 2 refontes">Détail des 2 refontes </a>  <br/>
+
+
+## 7. 🅰️ Modifications du site de la société fictive Alpha
+
+- En 2006, ce site a été créer en Flash durant ma formation PAO au Greta.
+- En 2021, j'ai remplacé les animations en flash par des images ou du code html.
+- En 2025, j'ai créé une image animée avec Gimp.
+- Ajout de contenu Lorem Ipsum.
+
+<a href="http://nelly.babin.free.fr/site-test-flash/index.html" target="_blank" title="Page société fictive alpha">Page société fictive Alpha</a>
+<br />
