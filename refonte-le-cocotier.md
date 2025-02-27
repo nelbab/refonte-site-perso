@@ -34,12 +34,16 @@
 </div>
 <br /><br />
 
+Voici le nouveau site en React V19 :
+  
+<a href="http://le-cocotier-react.s3-website.eu-west-3.amazonaws.com/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
+
 
 ## 3. 🔍 Refonte en Angular v19 et Bootsrap v5
 
 ### a. 🔭 Objectifs
 
-- Découvrir un nouveau framework.
+- Découvrir un nouveau framework et une nouvelle librairie.
 
 ### b. 👩‍💻 Conception
 
