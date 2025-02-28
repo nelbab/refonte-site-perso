@@ -4,7 +4,7 @@
 ## 1. 🍽️ Objectifs de la refonte
 
 - Rendre le site responsif et moderne.<br />
-- Automatiser l'apparision des cartes suivant la saison (hiver, mi-saison, été).
+- Automatiser l'apparition des cartes suivant la saison (hiver, mi-saison, été).
 
 
 ## 2. 💡 Refonte en React v19
@@ -16,7 +16,7 @@
 
 ### b. 👩‍💻 Conception
 
-- J'ai ajouté un header et ub footer.
+- J'ai ajouté un header et un footer.
 - J'ai ajouté un carroussel pour les crêpes mises en avant.
 - J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page et rendre le site responsif.
 
@@ -47,6 +47,9 @@ Voici le nouveau site en React V19 :
 
 ### b. 👩‍💻 Conception
 
+- recherche des modèles Boostrap de navbar pour le header et de footer.
+- Les adapter à mon site.
+- Utilisation des techniques modernes comme les flexbox et grid layout pour la mise en page et rendre le site responsif.
 
 ### c. 🛠️ Technologies utilisées : 
 <div align="center"> 
