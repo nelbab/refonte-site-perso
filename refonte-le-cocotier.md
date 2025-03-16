@@ -358,18 +358,62 @@ et
 - <b>Routing complexe</b> dans plusieurs fichiers.<br />
 Fichier app-routing.module.ts :
 ```
-const routes: Routes = [
-  { path: '', component: AccueilComponent },
-  { path: 'accueil', component: AccueilComponent },
-  { path: 'carte-hiver', component: CarteHiverComponent },
-  { path: 'carte-ete', component: CarteEteComponent },
-  { path: 'carte-intermediaire', component: CarteIntermediaireComponent },
-  { path: 'carte-dessert', component: CarteDessertComponent },
-  { path: 'carte-glace', component: CarteGlaceComponent },
-  { path: 'carte-boisson', component: CarteBoissonComponent },
-  { path: 'contact', component: ContactComponent },
-  // Route wildcard pour gérer les URLs non trouvées
-  { path: '**', redirectTo: 'accueil' }
+export const routes: Routes = [
+  { 
+    path: '', 
+    title: 'Accueil', 
+    component: AccueilComponent,
+    data: { description: "Découvrez notre restaurant et nos spécialités de saison." } 
+  },
+  { 
+    path: 'accueil', 
+    title: 'Accueil', 
+    component: AccueilComponent,
+    data: { description: "Bienvenue sur notre site. Découvrez nos menus et notre ambiance chaleureuse." } 
+  },
+  { 
+    path: 'carte-hiver', 
+    title: 'Carte hiver', 
+    component: CarteHiverComponent,
+    data: { description: "Découvrez nos plats chauds et réconfortants pour l'hiver." } 
+  },
+  { 
+    path: 'carte-ete', 
+    title: 'Carte été', 
+    component: CarteEteComponent,
+    data: { description: "Savourez nos plats frais et légers pour l'été." } 
+  },
+  { 
+    path: 'carte-intermediaire', 
+    title: 'Carte mi-saison', 
+    component: CarteIntermediaireComponent,
+    data: { description: "Une sélection de plats adaptés à la mi-saisons." } 
+  },
+  { 
+    path: 'carte-dessert', 
+    title: 'Carte des desserts', 
+    component: CarteDessertComponent,
+    data: { description: "Découvrez nos délicieux desserts faits maison." } 
+  },
+  { 
+    path: 'carte-glace', 
+    title: 'Carte des glaces', 
+    component: CarteGlaceComponent,
+    data: { description: "Un large choix de glaces gourmandes." } 
+  },
+  { 
+    path: 'carte-boisson', 
+    title: 'Carte des boissons', 
+    component: CarteBoissonComponent,
+    data: { description: "Des boissons fraîches et chaudes pour accompagner vos repas." } 
+  },
+  { 
+    path: 'contact', 
+    title: 'Contact', 
+    component: ContactComponent,
+    data: { description: "Contactez-nous pour toute réservation ou information." } 
+  },
+  { path: '**', title: 'Accueil', redirectTo: 'accueil' }
 ];
 
 @NgModule({
