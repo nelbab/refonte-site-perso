@@ -825,7 +825,7 @@ Pour ces composants modales, j'ai dû utiliser le <b>footer.component.css</b> po
 - Taille du projet en développement : 231 Mo.
 - Build plus compliqué avec des erreurs ce qui a entrainé l'ajout de "optimization" et de la librairie "popperjs" pour que le build réussisse.<br />
 J'ai dû aussi augmenté la taille max du build.<br />
-Taille du build : 1,97 Mo
+Taille du build : 1,99 Mo
 <br /><br />
 
 ## 6. 📝 Conclusion : 
@@ -857,20 +857,24 @@ Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux 
 
 - Bootstrap : Contrairement à l'idée reçue, j'ai trouvé que Bootstrap présente une logique parfois difficile à comprendre, avec une personnalisation moins intuitive que Tailwind.
 - Angular : La multiplication des fichiers et la complexité du routing ont rendu le développement plus laborieux.
-- Empreinte environnementale : Le projet Angular est significativement plus lourd (231 Mo vs 129 Mo pour React), ce qui pose question en termes d'éco-conception.
+- Empreinte environnementale : Le projet Angular est significativement plus lourd (232 Mo vs 129 Mo pour React), ce qui pose question en termes d'éco-conception.
 
 🌱 Aspect éco-conception
 - La différence de taille entre les deux projets en développement est significative :
 
   - Projet React : 129 Mo
-  - Projet Angular : 231 Mo
+  - Projet Angular : 232 Mo
 
-- Cette différence de près de 80% a un impact réel sur :
+  Cette différence de près de 80% a un impact réel sur :
 
   - L'empreinte carbone du développement.
-  - Les ressources nécessaires au déploiement.
-  - Les performances potentielles pour l'utilisateur final.
+  - Les ressources nécessaires à la maintenabilité du site.
 
+- La différence de taille entre les deux projets après les build n'est pas significative :
+  
+  - Projet React : 2.07 Mo
+  - Projet Angular : 1.99 Mo
+  
 - Dans une démarche d'éco-conception web, cette observation constitue un argument supplémentaire en faveur de React pour ce type de projet.
 
 🚀 Évolutions techniques acquises
@@ -887,5 +891,4 @@ Ce projet m'a permis de :
 🔮 Perspectives
 - Les deux versions du site sont maintenant opérationnelles, les versions sont en production. 
 - L'automatisation des cartes saisonnières facilitera grandement la gestion du contenu pour la crêperie Le Cocotier.
-- Si le site était pour une société réelle, mon choix s'orienterait vers le projet en React plus adapté aux sites vitrines. <br />
-De plus, le choix de React contribue à une empreinte numérique plus responsable.
+- Si le site était pour une société réelle, mon choix s'orienterait vers le projet en React plus adapté aux sites vitrines. De plus, le choix de React contribue à une empreinte numérique plus responsable en terme de développement.
