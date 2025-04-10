@@ -51,7 +51,7 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
 - Site en React V19 <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
   
-<a href="http://le-cocotier-react.s3-website.eu-west-3.amazonaws.com/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
 <br />
 
 - Site en Angular <img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" />

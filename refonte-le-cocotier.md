@@ -29,7 +29,7 @@
 
 Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
   
-<a href="http://le-cocotier-react.s3-website.eu-west-3.amazonaws.com/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
 
 
 ### d. 🛠️ Technologies utilisées : 
@@ -45,7 +45,7 @@ Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" 
 <a href="https://www.npmjs.com" target="_blank"><img style="margin: 10px" src="images/npm.png" alt="npm" height="50" title="npm" /></a>
 <a href="https://code.visualstudio.com/" target="_blank"><img style="margin: 10px" src="images/visualStudiocode.png" alt="Visual Studio Code" title="Visual Studio Code" height="50" /></a>
 <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="images/gitHub.png" alt="Git" title="Git" height="50" /></a>
-<a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="images/aws.png" alt="AWS" title="AWS" height="50" /></a> 
+<a href="https://httpd.apache.org" target="_blank"><img style="margin: 10px" src="images/apache.png" alt="Apache" title="Apache" height="50" /></a>
 </div>
 <br />
 
@@ -190,11 +190,18 @@ Le body du fichier index.html :
 ```
 const CarteDessertPage = () => {
 
-  const date = new Date()
-    const mois = date.getMonth() + 1
-    const [periode, setPeriode] = useState(1);
-    if (mois > 6 && mois < 9 ) setPeriode(2)
-    if (mois === 9 || mois ===10 || mois === 4 || mois === 5) setPeriode(3)
+  const [periode, setPeriode] = useState(1);
+
+  useEffect(() => {
+    const date = new Date();
+    const mois = date.getMonth() + 1;
+
+    if (mois > 6 && mois < 9) {
+      setPeriode(2);
+    } else if ([9, 10, 4, 5].includes(mois)) {
+      setPeriode(3);
+    }
+  }, []);
 ...
 {(periode === 2) ? (
                 <li>Coupe de fraise <i>(fraise, chantilly)</i> / 4.40 €</li>
@@ -225,11 +232,18 @@ et
 - <b>Création d'un composent caroussel</b> sur la page d'accueil  :
 ```
 export default function CarouselTransition() {
-  const date = new Date()
-  const mois = date.getMonth() + 1
   const [periode, setPeriode] = useState(1);
-  if (mois > 6 && mois < 9 ) setPeriode(2)
-  if (mois === 9 || mois ===10 || mois === 4 || mois === 5) setPeriode(3)
+
+  useEffect(() => {
+    const date = new Date();
+    const mois = date.getMonth() + 1;
+
+    if (mois > 6 && mois < 9) {
+      setPeriode(2);
+    } else if ([9, 10, 4, 5].includes(mois)) {
+      setPeriode(3);
+    }
+  }, []);
 
   return (
 <Carousel
