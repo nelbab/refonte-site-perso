@@ -12,19 +12,19 @@
 
 ### a. 🔭 Objectifs
 
-- Découvrir la fonctionnement et architecture de Vue js v3.
+- Découvrir la fonctionnement et architecture de `Vue js v3`.
 
 ### b. 🛠️ Présentation Vue js v3
 
 - Système de templates
 - Composants
-- Vue Router pour la navigation
+- `Vue Router` pour la navigation
 
 ### c. 👩‍💻 Conception
 
-- J'ai repris les composants du site React.
-- J'ai adapté les composants Material-Tailwind en Vue.
-- J'ai adapté le routage à Vue
+- J'ai repris les composants du site `React`.
+- J'ai adapté les composants `Material-Tailwind` en `Vue`.
+- J'ai adapté le routage à `Vue`
 
 ### d. Architecture du projet
 
@@ -50,7 +50,7 @@
 
 ### f. Voici le site en Vue js 3: 
   
-<a href="http://nelly.babin.free.fr/site-restaurant-vue/" target="_blank" title="Page du site en Vue">Site en vue</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-vue/" target="_blank" title="Page du site en Vue">Site en Vue</a>
 <br /><br />
 
 
@@ -216,7 +216,7 @@ onUnmounted(() => {
 </template>
 ```
 - <b>Les composants sont importés directement dans le fichier qui l'utilise</b>.<br>
-Modification du <b>composant</b> `blocImage`, <b>utilisable directement sur la page</b> blocImage.vue :
+Modification du <b>composant</b> `blocImage`, <b>utilisable directement sur la page</b> `blocImage.vue` :
 ```
 <script setup lang="ts">
 defineProps<{
@@ -393,7 +393,6 @@ export default {
 </script>
 
 <style scoped>
-
 /* Animation pour les slides */
 .transition-transform {
   transition: transform 0.5s ease-in-out;
@@ -421,7 +420,7 @@ et
 ...
 </template>
 ```
-- <b>Modification des modales pour les informations du footer</b>, exemple de la modale `support` :
+- <b>Modification des modales pour les informations du footer</b>, exemple de la modale `support.vue` :
 ```
 <template>
     <DialogBase @close="$emit('close')">
@@ -525,9 +524,9 @@ Support
 
 ### 🛠️ Résultats techniques obtenus
 
-- **Taille du projet build** : 1,15 Mo - un bundle optimisé et léger.
+- **Taille du projet build** : `1,15 Mo` - un bundle optimisé et léger.
   
-- **Taille après build** : 93,3 Mo (incluant tous les fichiers générés .js après le build pour chaque composant .vue et .ts)
+- **Taille après build** : `93,3 Mo` (incluant tous les fichiers générés .js après le build pour chaque composant .vue et .ts)
   
 - **Performance** : Site responsive et fluide sur desktop et mobile.
   
@@ -535,7 +534,7 @@ Support
 
 ### ✅ Objectifs atteints
 
-- **Modernisation complète** : Migration réussie vers Vue.js 3 avec TypeScript.
+- **Modernisation complète** : Migration réussie vers `Vue.js 3` avec `TypeScript`.
   
 - **Responsivité** : Design adaptatif parfaitement fonctionnel sur tous les écrans.
   
@@ -553,7 +552,7 @@ Support
 - Gestion efficace du cycle de vie des composants (`onMounted`, `onUnmounted`).
 
 #### b. Ecosystème Vue :
-- Intégration fluide de Vue Router pour la navigation SPA.
+- Intégration fluide de `Vue Router` pour la navigation SPA.
 - Utilisation de Suspense pour la gestion du chargement asynchrone.
 - Implémentation de composants réutilisables (`DialogBase`, `BlocImage`, `Carousel`).
 
