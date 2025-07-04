@@ -64,7 +64,7 @@
 ## 5. 📝 Codes spécifiques
 
 - Pour le routage, j'ai utilisé `vue-router`:<br /><br />
-Fichier main.ts :
+Fichier `main.ts` :
 ```
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -73,7 +73,7 @@ import './index.css'
 
 createApp(App).use(router).mount('#app')
 ```
-Fichier App.vue :
+Fichier `App.vue` :
 ```
 <template>
   <div id="app">
@@ -99,7 +99,7 @@ import Header from './components/layout/Header.vue'
 import Footer from './components/layout/Footer.vue'
 </script>
 ```
-le fichier \router\index.ts
+le fichier `\router\index.ts`
 ```
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
@@ -257,7 +257,7 @@ et
 ...
 </template>
 ```
-- <b>Modification du composent `caroussel`</b> sur la page d'accueil  :
+- <b>Modification du composent `caroussel`</b> sur la page d'`Accueil.vue`  :
 ```
 <template>
   <div class="carousel-container">
@@ -420,7 +420,7 @@ et
 ...
 </template>
 ```
-- <b>Modification des modales pour les informations du footer</b>, exemple de la modale `support.vue` :
+- <b>Modification des modales pour les informations du `Footer.vue`</b>, exemple de la modale `support.vue` :
 ```
 <template>
     <DialogBase @close="$emit('close')">
