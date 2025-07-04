@@ -3,7 +3,8 @@
 
 ## 1. 🍽️ Objectifs de ce projet
 
-- Rendre le site responsif et moderne.<br />
+- Rendre le site responsif et moderne.
+
 - Automatiser l'apparition des cartes suivant la saison (hiver, mi-saison, été).
 <br /><br />
 
@@ -11,7 +12,7 @@
 
 ### a. 🔭 Objectifs
 
-- Découvrir la fonctionnement et architecture de Vue js 3.
+- Découvrir la fonctionnement et architecture de Vue js v3.
 
 ### b. 🛠️ Présentation Vue js v3
 
@@ -22,7 +23,7 @@
 ### c. 👩‍💻 Conception
 
 - J'ai repris les composants du site React.
-- J'ai adapté les composants Material-Tailwind à Vue.
+- J'ai adapté les composants Material-Tailwind en Vue.
 - J'ai adapté le routage à Vue
 
 ### d. Architecture du projet
@@ -526,7 +527,7 @@ Support
 
 - **Taille du projet build** : 1,15 Mo - un bundle optimisé et léger.
   
-- **Taille après build** : 93,3 Mo (incluant tous les fichiers générés .js pour chaque composant .vue et .ts)
+- **Taille après build** : 93,3 Mo (incluant tous les fichiers générés .js après le build pour chaque composant .vue et .ts)
   
 - **Performance** : Site responsive et fluide sur desktop et mobile.
   
@@ -566,6 +567,7 @@ Support
 ### 🎯Points forts du projet
 
 - **Code maintenable** : Structure claire avec un composant = un fichier.
+
 - **Évolutivité** : Système de gestion saisonnière facilement extensible.
   
 - **Performance** : Bundle optimisé et chargement différé des composants.
@@ -576,10 +578,10 @@ Support
 
 ### 🔄 Retour d'expérience
 
-- Ce projet a permis de découvrir la puissance et l'élégance de `Vue.js 3`. 
+- Ce projet a permis de découvrir la puissance et l'élégance de `Vue.js 3`.
+ 
 - La migration depuis `React` s'est avérée fluide grâce à la philosophie similaire des composants. 
-- L'écosystème `Vue` offre une excellente developer experience avec des outils comme `Vite` pour un développement rapide et une documentation claire.
+  
+- L'écosystème `Vue` offre une excellente  experience avec des outils comme `Vite` pour un développement rapide et une documentation claire.
 
 - **Temps de développement** : Environ 3 week-end pour la migration complète, les nouvelles fonctionnalités et la modification du design.
-
-- **Satisfaction client** : Site moderne, rapide et parfaitement adapté aux besoins d'une crêperie avec gestion saisonnière automatique.
