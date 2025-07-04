@@ -844,11 +844,11 @@ Taille du build : `1,99 Mo`
 
 ## 6. 📝 Conclusion : 
 
-🔄 Synthèse comparative
+### 🔄 a. Synthèse comparative
 
 Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux technologies modernes <b>`React v19` avec `Material Tailwind`</b> et <b>`Angular v19` avec `Bootstrap`</b>, je peux tirer plusieurs enseignements importants de cette expérience.
 
-✅ <b>Points forts de React v19 + Material Tailwind</b>
+### ✅ b. Points forts de React v19 + Material Tailwind
 
 - Structure simplifiée : Un composant = un dossier et un fichier, ce qui facilite la maintenance et l'organisation du code.
 - Routing intuitif : Configuration centralisée et facile à comprendre.
@@ -859,7 +859,7 @@ Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux 
 - DX (Developer Experience) : Plus simple pour les nouveaux projets et les petites équipes.
 - Éco-conception : Empreinte nettement plus légère (129 Mo) comparée à `Angular`.
 
-✅ <b>Points forts d'Angular v19 + Bootstrap</b>
+### ✅ c. Points forts d'Angular v19 + Bootstrap
 
 - Structure rigoureuse : Architecture imposée qui peut être un avantage pour les grands projets en équipe.
 - Typage fort : `TypeScript` natif pour une meilleure robustesse.
@@ -867,13 +867,13 @@ Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux 
 - Composants standard : Bibliothèque de composants prêts à l'emploi, mais avec une courbe d'apprentissage plus abrupte.
 - Evolutivité : Architecture adaptée aux applications complexes et évolutives.
 
-⚠️ Difficultés rencontrées
+### ⚠️ d. Difficultés rencontrées
 
 - `Bootstrap` : Contrairement à l'idée reçue, j'ai trouvé que `Bootstrap` présente une logique parfois difficile à comprendre, avec une personnalisation moins intuitive que `Tailwind`.
 - `Angular` : La multiplication des fichiers et la complexité du routing ont rendu le développement plus laborieux.
 - Empreinte environnementale : Le projet `Angular` est significativement plus lourd (232 Mo vs 129 Mo pour `React`), ce qui pose question en termes d'éco-conception.
 
-🌱 Aspect éco-conception
+### 🌱 e. Aspect éco-conception
 - La différence de taille entre les deux projets en développement est significative :
 
   - Projet React : `129 Mo`
@@ -891,7 +891,7 @@ Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux 
   
 - Dans une démarche d'éco-conception web, cette observation constitue un argument supplémentaire en faveur de `React` pour ce type de projet.
 
-🚀 Évolutions techniques acquises
+### 🚀 f. Evolutions techniques acquises
 
 Ce projet m'a permis de :
 
@@ -902,7 +902,7 @@ Ce projet m'a permis de :
 - Créer des interfaces responsives avec des techniques modernes.
 - Evaluer l'impact environnemental des choix technologiques.
 
-🔮 Perspectives
+### 🔮 g. Perspectives
 - Les deux versions du site sont maintenant opérationnelles, les versions sont en production. 
 - L'automatisation des cartes saisonnières facilitera grandement la gestion du contenu pour la crêperie Le Cocotier.
 - Si le site était pour une société réelle, mon choix s'orienterait vers le projet en `React` plus adapté aux sites vitrines. De plus, le choix de `React` contribue à une empreinte numérique plus responsable en terme de développement.

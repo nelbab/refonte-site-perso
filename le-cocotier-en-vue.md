@@ -524,17 +524,24 @@ Support
 
 ### 🛠️ Résultats techniques obtenus
 
-- **Taille du projet build** : 1,15 Mo - un bundle optimisé et léger
+- **Taille du projet build** : 1,15 Mo - un bundle optimisé et léger.
+  
 - **Taille après build** : 93,3 Mo (incluant tous les fichiers générés .js pour chaque composant .vue et .ts)
-- **Performance** : Site responsive et fluide sur desktop et mobile
+  
+- **Performance** : Site responsive et fluide sur desktop et mobile.
+  
 - **Automatisation saisonnière** : Système d'affichage dynamique des menus selon les périodes (hiver, mi-saison, été)
 
 ### ✅ Objectifs atteints
 
 - **Modernisation complète** : Migration réussie vers Vue.js 3 avec TypeScript.
+  
 - **Responsivité** : Design adaptatif parfaitement fonctionnel sur tous les écrans.
+  
 - **Automatisation** : Logique saisonnière implémentée pour l'affichage des cartes.
+  
 - **Performance** : Lazy loading des composants et optimisation du bundle.
+  
 - **Expérience utilisateur** : Carousel interactif, modales élégantes et navigation fluide.
 
 ### 👩‍💻 Apprentissages et découvertes
@@ -551,15 +558,20 @@ Support
 
 #### c. Optimisations techniques :
 - `Lazy loading` des routes pour réduire le temps de chargement initial.
+  
 - Gestion automatique des erreurs de navigation.
+  
 - Architecture modulaire avec séparation claire des responsabilités.
 
 ### 🎯Points forts du projet
 
 - **Code maintenable** : Structure claire avec un composant = un fichier.
 - **Évolutivité** : Système de gestion saisonnière facilement extensible.
+  
 - **Performance** : Bundle optimisé et chargement différé des composants.
+  
 - **Accessibilité** : Utilisation d'icônes Heroicons et attributs ARIA appropriés
+  
 - **Expérience utilisateur** : Transitions fluides et interactions engageantes.
 
 ### 🔄 Retour d'expérience
