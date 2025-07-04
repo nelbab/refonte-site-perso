@@ -54,6 +54,7 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 <a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
 <br />
 
+- Découverte d'Angular v19
 - Site en Angular <img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" />
 
 <a href="http://nelly.babin.free.fr/site-restaurant" target="_blank" title="Page de la refonte Angular">Site de la refonte Angular</a>
@@ -69,4 +70,13 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 - Ajout de contenu Lorem Ipsum.
 
 <a href="http://nelly.babin.free.fr/site-test-flash/index.html" target="_blank" title="Page société fictive alpha">Page société fictive Alpha</a>
-<br />
+<br /><br />
+
+## 8. 🌴 Site du restaurant Le Cocotier en Vue js
+
+- Découverte de Vue js
+  
+<a href="http://nelly.babin.free.fr/site-restaurant-vue/" target="_blank" title="Page du site en Vue">Site en vue</a>
+<br /><br />
+<a href="https://github.com/nelbab/refonte-site-perso/blob/main/le-cocotier-en-vue.md" target="_blank" title="Détail des 2 refontes">Détail du développement en Vue </a>  <br/>
+<br /><br />

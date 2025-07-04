@@ -11,23 +11,23 @@
 
 ### a. 🔭 Objectifs
 
-- Découvrir les nouveautés de React v19.
+- Découvrir les nouveautés de `React v19`.
 
 ### b. 🛠️ Présentation React 19 + Material Tailwind
 
 - Bibliothèque flexible basée sur des composants
-- Tailwind permet un styling modulaire et personnalisable
-- Expérience développeur fluide avec les hooks et le Context API
+- `Tailwind` permet un styling modulaire et personnalisable
+- Expérience développeur fluide avec les `hooks` et le `Context API`
 
 ### c. 👩‍💻 Conception
 
 - J'ai ajouté un header et un footer.
 - J'ai ajouté un carroussel pour les crêpes mises en avant.
-- Utilisation de modèles Material Tailwind.
+- Utilisation de modèles `Material Tailwind`.
 - J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page et rendre le site responsif.
 - J'ai créé un composant pour afficher les images.
 
-Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
+Voir le site en `React V19` <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
   
 <a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
 
@@ -51,7 +51,7 @@ Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" 
 
 ### e. Voici le nouveau site en React V19 : 
   
-<a href="http://le-cocotier-react.s3-website.eu-west-3.amazonaws.com/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
 <br /><br />
 
 ## 3. 🔍 Refonte en Angular v19 <a href="https://angular.dev/" target="_blank"><img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" /></a>
@@ -64,7 +64,7 @@ Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" 
 ### b. 🛠️ Présentation Angular 19 + Bootstrap 5
 
 - Framework complet avec une architecture imposée.
-- Bootstrap offre un styling rapide mais moins modulaire.
+- `Bootstrap` offre un styling rapide mais moins modulaire.
 - Utilisation de services et de modules pour la gestion des données.
 
 
@@ -98,16 +98,16 @@ Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" 
 <br /><br />
 
 ## 4. 🖥️ Captures d'écrans : 
-🎴Ecran ancien site desktop et mobile<br />
+🎴Ecran ancien site `desktop` et `mobile`<br />
 <img style="margin: 10px" src="images/ancien-site-cocotier.png" alt="ancien site desktop" title="ancien site desktop" height="200px" />
 <img style="margin: 10px" src="images/ancien-site-cocotier-mobile.png" alt="ancien site modile" title="ancien site mobile" height="400px" />
 <br />
-🎴Ecran site en React desktop et mobile<a href="https://reactjs.org/" target="_blank"><img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" /></a><br />
-<img style="margin: 10px" src="images/site-cocotier-react.png" alt="ancien site desktop" title="ancien site desktop" height="200px" />
-<img style="margin: 10px" src="images/site-cocotier-react-mobile.png" alt="ancien site modile" title="ancien site mobile" height="400px" /><br />
-🎴Ecran site en Angular desktop et mobile<a href="https://angular.dev/" target="_blank"><img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" /></a><br />
-<img style="margin: 10px" src="images/site-cocotier-angular.png" alt="ancien site desktop" title="ancien site desktop" height="200px" />
-<img style="margin: 10px" src="images/site-cocotier-angular-mobile.png" alt="ancien site modile" title="ancien site mobile" height="400px" />
+🎴Ecran site en `React` `desktop` et `mobile`<a href="https://reactjs.org/" target="_blank"><img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" /></a><br />
+<img style="margin: 10px" src="images/site-cocotier-react.png" alt="site desktop react" title="site desktop react" height="200px" />
+<img style="margin: 10px" src="images/site-cocotier-react-mobile.png" alt="site mobile react" title="site mobile react" height="400px" /><br />
+🎴Ecran site en `Angular` `desktop` et `mobile`<a href="https://angular.dev/" target="_blank"><img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" /></a><br />
+<img style="margin: 10px" src="images/site-cocotier-angular.png" alt="site desktop angular" title="site desktop angular" height="200px" />
+<img style="margin: 10px" src="images/site-cocotier-angular-mobile.png" alt="site modile angular" title="site modile angular" height="400px" />
 <br /><br />
 
 
@@ -118,7 +118,7 @@ Voir le site en React V19 <img style="margin-left: 10px" src="images/react.png" 
 - <b>Site monopage</b> idéal pour un site vitrine.
 - Un composant = un dossier et un fichier.
 - <b>Routing simple</b> dans un seul fichier. Ici je l'ai fait en 2 fichiers pour les changements de route.
-Fichier App.tsx :
+Fichier `App.tsx` :
 ```
 const App = () => {
   return (
@@ -175,7 +175,7 @@ const routes = [
 ];
 export default routes;
 ```
-Le body du fichier index.html :
+Le body du fichier `index.html` :
 ```
  <body>
     <div id="root"></div>
@@ -209,7 +209,7 @@ const CarteDessertPage = () => {
                 <div></div>}
 ```
 - <b>Les composants sont importés directement dans le fichier qui l'utilise</b>.<br>
-Création d'un <b>composant</b> "blocImage", <b>utilisable directement sur la page</b> blocImage.tsx :
+Création d'un <b>composant</b> "blocImage", <b>utilisable directement sur la page</b> `blocImage.tsx` :
 ```
 export default function BlocImage(image: string, titre: string) {
 
@@ -313,7 +313,7 @@ et
 ```
 <CarouselTransition />
 ```
-- <b>Création de modales pour les informations du footer</b>, exemple de la modale support :
+- <b>Création de modales pour les informations du footer</b>, exemple de la modale `support` :
 ```
 import React from "react";
 import {
@@ -368,7 +368,7 @@ et
 
 ### b. Angular avec bootsrap : <a href="https://angular.dev/" target="_blank"><img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" /></a>
 
-- Un composant = un dossier et plusieurs fichiers (par défaut 4 fichiers sont créés avec la commande "ng generate component mycomponent").
+- Un composant = un dossier et plusieurs fichiers (par défaut 4 fichiers sont créés avec la commande "`ng generate component mycomponent`").
 - <b>Routing complexe</b> dans plusieurs fichiers.<br />
 Fichier app-routing.module.ts :
 ```
@@ -436,14 +436,14 @@ export const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
-Le body du fichier index.html :
+Le body du fichier `index.html` :
 ```
 <body class="body">
   <app-root></app-root>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 ```
-Fichier app.component.ts :
+Fichier `app.component.ts` :
 ```
 @Component({
   selector: 'app-root',
@@ -455,7 +455,7 @@ export class AppComponent{
   title = 'site-restaurant';
 }
 ```
-Fichier header.component.ts pour les liens du menu :
+Fichier `header.component.ts` pour les liens du menu :
 ```
 @Component({
   selector: 'app-header',
@@ -466,8 +466,8 @@ Fichier header.component.ts pour les liens du menu :
 })
 ```
 
-- Bootstrap est rapide mais parfois <b>limité en personnalisation</b>.
-- Faire un <b>test</b> pour afficher un champ est <b>plus complexe</b>, le code est inclus dans le fichier carte-dessert.component.ts :
+- `Bootstrap` est rapide mais parfois <b>limité en personnalisation</b>.
+- Faire un <b>test</b> pour afficher un champ est <b>plus complexe</b>, le code est inclus dans le fichier `carte-dessert.component.ts` :
 ```
 export class CarteDessertComponent implements OnInit {
   readonly date = new Date();
@@ -504,7 +504,7 @@ Pour être utiliser dans le fichier html :
 
 - Création d'un <b>composant</b> "blocImage", utilisable sur les autres composants en paramétrant le <b>@Component en "standalone: true"</b>, en l'important dans les @Component des autres composants.
 
-Fichier bloc-image.component.ts :
+Fichier `bloc-image.component.ts` :
 ```
 import { Component, Input } from '@angular/core';
 
@@ -519,7 +519,7 @@ export class BlocImageComponent {
   @Input() titre!: string;
 }
 ```
-Fichier bloc-image.component.html :
+Fichier `bloc-image.component.html` :
 ```
 <div class="w-100 h-100 bg-white d-flex align-items-center justify-content-center py-3">     
     <img [src]="'assets/images/' + image" alt="{{ titre }}" title="{{ titre }}" class="rounded-3 img-fluid" style="max-height: 230px;">
@@ -545,7 +545,7 @@ export class CarteEteComponent {
 ```
 - <b>Création d'un composent caroussel</b> sur la page d'accueil  :
 
-Fichier carousel.component.ts :
+Fichier `carousel.component.ts` :
 ```
 <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -565,7 +565,7 @@ Fichier carousel.component.ts :
     </button>
   </div>
 ```
-Fichier carousel.component.html :
+Fichier `carousel.component.html` :
 ```
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -599,7 +599,7 @@ export class CarouselComponent implements OnInit {
 ```
 J'ai créé un service :
 
-Fichier carousel.service.ts
+Fichier `carousel.service.ts`
 ```
 import { Injectable, OnDestroy } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
@@ -692,7 +692,7 @@ export class CarouselService implements OnDestroy {
 ```
 Puis il faut l'<b>import dans le compoment.ts</b> de la pages l'utilisant et enfin l'<b>utiliser dans le fichier html</b> :
 
-Fichier accueil.component.ts
+Fichier `accueil.component.ts`
 ```
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -717,7 +717,7 @@ export class AccueilComponent {
 
 - <b>Création de modales pour les informations du footer</b>, exemple de la modale support :
   
-Fichier support.component.ts :
+Fichier `support.component.ts` :
 ```
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
@@ -741,7 +741,7 @@ export class SupportComponent {
   }
 }
 ```
-Fichier support.component.html :
+Fichier `support.component.html` :
 ```
 <div class="modal" [class.show]="isOpen" [style.display]="isOpen ? 'block' : 'none'" tabindex="-1">
     <div class="modal-dialog">
@@ -763,7 +763,7 @@ Fichier support.component.html :
 ```
 Puis il faut l'<b>import dans le compoment.ts</b> de la pages l'utilisant et enfin l'<b>utiliser dans le fichier html</b>  avec une utilisation d'une icône <b>bootstrap-icons</b> :
 
-Fichier footer.component.ts :
+Fichier `footer.component.ts` :
 ```
 import { Component, ViewChild } from '@angular/core';
 import { SupportComponent } from '../support/support.component';
@@ -815,7 +815,7 @@ export class FooterComponent {
     <i class="bi bi-tools" style="font-size: 20px; color: #000000; z-index: 10; "></i><span class="footerText">Support</span>
   </button>
 ```
-Pour ces composants modales, j'ai dû utiliser le <b>footer.component.css</b> pour que les styles soient bien pris en compte sur les modales, le fichier css ne fonctionnait pas correctement.
+Pour ces composants modales, j'ai dû utiliser le `footer.component.css` pour que les styles soient bien pris en compte sur les modales, le fichier css ne fonctionnait pas correctement.
 
 - Lorsqu'une librairie est instllée, il faut la paramétrée dans le fichier <b>angular.json</b>.
 ```
@@ -839,45 +839,45 @@ Pour ces composants modales, j'ai dû utiliser le <b>footer.component.css</b> po
 - Taille du projet en développement : 231 Mo.
 - Build plus compliqué avec des erreurs ce qui a entrainé l'ajout de "optimization" et de la librairie "popperjs" pour que le build réussisse.<br />
 J'ai dû aussi augmenté la taille max du build.<br />
-Taille du build : 1,99 Mo
+Taille du build : `1,99 Mo`
 <br /><br />
 
 ## 6. 📝 Conclusion : 
 
 🔄 Synthèse comparative
 
-Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux technologies modernes <b>React v19 avec Material Tailwind</b> et <b>Angular v19 avec Bootstrap</b>, je peux tirer plusieurs enseignements importants de cette expérience.
+Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux technologies modernes <b>`React v19` avec `Material Tailwind`</b> et <b>`Angular v19` avec `Bootstrap`</b>, je peux tirer plusieurs enseignements importants de cette expérience.
 
-✅ Points forts de React v19 + Material Tailwind
+✅ <b>Points forts de React v19 + Material Tailwind</b>
 
 - Structure simplifiée : Un composant = un dossier et un fichier, ce qui facilite la maintenance et l'organisation du code.
 - Routing intuitif : Configuration centralisée et facile à comprendre.
 - Flexibilité des composants : Import et utilisation directe dans les fichiers sans configuration complexe.
-- Material Tailwind : Personnalisation poussée avec une approche modulaire du CSS.
-- Typage fort : TypeScript natif pour une meilleure robustesse.
+- `Material Tailwind` : Personnalisation poussée avec une approche modulaire du CSS.
+- Typage fort : `TypeScript` natif pour une meilleure robustesse.
 - Idéale pour les sites vitrine comme celui-ci.
 - DX (Developer Experience) : Plus simple pour les nouveaux projets et les petites équipes.
-- Éco-conception : Empreinte nettement plus légère (129 Mo) comparée à Angular.
+- Éco-conception : Empreinte nettement plus légère (129 Mo) comparée à `Angular`.
 
-✅ Points forts d'Angular v19 + Bootstrap
+✅ <b>Points forts d'Angular v19 + Bootstrap</b>
 
 - Structure rigoureuse : Architecture imposée qui peut être un avantage pour les grands projets en équipe.
-- Typage fort : TypeScript natif pour une meilleure robustesse.
+- Typage fort : `TypeScript` natif pour une meilleure robustesse.
 - Services centralisés : Séparation claire entre logique métier et présentation.
 - Composants standard : Bibliothèque de composants prêts à l'emploi, mais avec une courbe d'apprentissage plus abrupte.
 - Evolutivité : Architecture adaptée aux applications complexes et évolutives.
 
 ⚠️ Difficultés rencontrées
 
-- Bootstrap : Contrairement à l'idée reçue, j'ai trouvé que Bootstrap présente une logique parfois difficile à comprendre, avec une personnalisation moins intuitive que Tailwind.
-- Angular : La multiplication des fichiers et la complexité du routing ont rendu le développement plus laborieux.
-- Empreinte environnementale : Le projet Angular est significativement plus lourd (232 Mo vs 129 Mo pour React), ce qui pose question en termes d'éco-conception.
+- `Bootstrap` : Contrairement à l'idée reçue, j'ai trouvé que `Bootstrap` présente une logique parfois difficile à comprendre, avec une personnalisation moins intuitive que `Tailwind`.
+- `Angular` : La multiplication des fichiers et la complexité du routing ont rendu le développement plus laborieux.
+- Empreinte environnementale : Le projet `Angular` est significativement plus lourd (232 Mo vs 129 Mo pour `React`), ce qui pose question en termes d'éco-conception.
 
 🌱 Aspect éco-conception
 - La différence de taille entre les deux projets en développement est significative :
 
-  - Projet React : 129 Mo
-  - Projet Angular : 232 Mo
+  - Projet React : `129 Mo`
+  - Projet Angular : `232 Mo`
 
   Cette différence de près de 80% a un impact réel sur :
 
@@ -886,18 +886,18 @@ Après avoir réalisé la refonte du site de la crêperie Le Cocotier avec deux 
 
 - La différence de taille entre les deux projets après les build n'est pas significative :
   
-  - Projet React : 2.07 Mo
-  - Projet Angular : 1.99 Mo
+  - Projet React : `2.07 Mo`
+  - Projet Angular : `1.99 Mo`
   
-- Dans une démarche d'éco-conception web, cette observation constitue un argument supplémentaire en faveur de React pour ce type de projet.
+- Dans une démarche d'éco-conception web, cette observation constitue un argument supplémentaire en faveur de `React` pour ce type de projet.
 
 🚀 Évolutions techniques acquises
 
 Ce projet m'a permis de :
 
-- Maîtriser les nouveautés de React v19.
-- Découvrir en profondeur Angular v19.
-- Comparer deux approches de styling modernes (Tailwind vs Bootstrap).
+- Maîtriser les nouveautés de `React v19`.
+- Découvrir en profondeur `Angular v19`.
+- Comparer deux approches de styling modernes (`Tailwind` vs `Bootstrap`).
 - Implémenter des fonctionnalités saisonnières automatisées.
 - Créer des interfaces responsives avec des techniques modernes.
 - Evaluer l'impact environnemental des choix technologiques.
@@ -905,4 +905,8 @@ Ce projet m'a permis de :
 🔮 Perspectives
 - Les deux versions du site sont maintenant opérationnelles, les versions sont en production. 
 - L'automatisation des cartes saisonnières facilitera grandement la gestion du contenu pour la crêperie Le Cocotier.
-- Si le site était pour une société réelle, mon choix s'orienterait vers le projet en React plus adapté aux sites vitrines. De plus, le choix de React contribue à une empreinte numérique plus responsable en terme de développement.
+- Si le site était pour une société réelle, mon choix s'orienterait vers le projet en `React` plus adapté aux sites vitrines. De plus, le choix de `React` contribue à une empreinte numérique plus responsable en terme de développement.
+
+## 💡7. Evolutions
+
+Suite à la création du site en Vue, j'ai modifié légèrement le design des 2 sites.

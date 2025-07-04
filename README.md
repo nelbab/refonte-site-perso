@@ -6,7 +6,7 @@
 
 ###    a. Contexte initial : 
 - J'ai créé ce site personnel en 2003 pour partager mes projets et expériences professionnelles.<br />
-- A l'époque, j'utilisais principalement HTML et CSS pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.<br />
+- A l'époque, j'utilisais principalement `HTML` et `CSS` pour la mise en page, sans responsive design ni prise en charge des appareils mobiles.<br />
 - En 2006, après ma formation PAO au Greta, j'ai amélioré le design du site. <br />
 - En 2021, j'ai remplacé les animations en flash par des images ou du code html.<br />
 - Le contenu du site a évolué aux cours de ces années.
@@ -29,7 +29,7 @@
 - Intégration d'un design responsive pour s'adapter à tous les appareils (ordinateurs, tablettes, smartphones).
 - J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page.
 ###    b. Technologies modernisées :
-- Le site utilise désormais HTML5 pour les balises sémantiques et CSS3 pour une meilleure gestion des animations et transitions, ainsi que JavaScript actuel.
+- Le site utilise désormais `HTML5` pour les balises sémantiques et `CSS3` pour une meilleure gestion des animations et transitions, ainsi que `JavaScript` actuel.
 ###    c. Optimisation mobile :
 - Assurez-vous que le site est pleinement responsive, ce qui permet une expérience fluide sur tous types de périphériques.
 - J'ai utilisé des techniques modernes comme les flexbox et grid layout pour la mise en page.
