@@ -21,15 +21,18 @@
 
 ## 3. 🌦️ Page météo
 
-- Utilisation de histogrammes générés avec python.
+- Utilisation de histogrammes générés avec `Python`.
 - Ajout de prévisions météo de la Tessoualle.
 
 <a href="http://nelly.babin.free.fr/meteo/index.php" target="_blank" title="Ma page météo">Ma page météo</a>
 <br/><br/>
 
-## 4. 🛠️ Réalisations
+## 4. 🛠️ Réalisations / Portefolio
 
 - Utilisation de la technique des cards pour une meilleure visibilité.
+- Liens des détails de conception.
+- Captures d'écrans.
+- liste des technologies utilisées.
 
 <a href="http://nelly.babin.free.fr/realis.html" target="_blank" title="Mes réalisations">Mes réalisations</a>
 <br/><br/>
@@ -37,10 +40,10 @@
 ## 5. 🕰️ Horloges en différents langages
 
 - Utilisation de la technique des cards pour une meilleure visibilité.
-- Pour Python, j'ai changé de technologie pour l'exécution côté client. J'ai remplacé pyscript par Pyodide.
-- Pour PHP, l'actualisation de l'heure se fait avec Javascript.
-- 🎯En conclusion, la meilleure technologie pour créer une horloge est Javascript.
-Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
+- Pour `Python`, j'ai changé de technologie pour l'exécution côté client. J'ai remplacé `pyscript` par `Pyodide`.
+- Pour `PHP`, l'actualisation de l'heure se fait avec `Javascript`.
+- 🎯En conclusion, la meilleure technologie pour créer une horloge est `Javascript`.
+`Pyodide` est lent à s'exécuter et `PHP` a besoin de `Javascript`.
 
 <a href="http://nelly.babin.free.fr/realisations/horloge.php" target="_blank" title="Page avec les horloges">Page avec les horloges</a>
 <br />
@@ -49,15 +52,15 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
 ## 6. 🌴 Refonte du site du restaurant Le Cocotier
 
-- Site en React V19 <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
+- Site en `React V19` <img style="margin-left: 10px" src="images/react.png" alt="React" title="React" height="25" />
   
-<a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte React</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-react/" target="_blank" title="Page de la refonte React">Site de la refonte `React`</a>
 <br />
 
-- Découverte d'Angular v19
-- Site en Angular <img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" />
+- Découverte d'`Angular v19`
+- Site en `Angular` <img style="margin-left: 10px" src="images/angular.png" alt="Angular" title="Angular" height="25" />
 
-<a href="http://nelly.babin.free.fr/site-restaurant" target="_blank" title="Page de la refonte Angular">Site de la refonte Angular</a>
+<a href="http://nelly.babin.free.fr/site-restaurant" target="_blank" title="Page de la refonte Angular">Site de la refonte `Angular`</a>
 
 <a href="https://github.com/nelbab/refonte-site-perso/blob/main/refonte-le-cocotier.md" target="_blank" title="Détail des 2 refontes">Détail des 2 refontes </a>  <br/>
 <br /><br />
@@ -74,9 +77,22 @@ Pyodide est lent à s'exécuter et PHP a besoin de Javascript.
 
 ## 8. 🌴 Site du restaurant Le Cocotier en Vue js
 
-- Découverte de Vue js
+- Découverte de `Vue js` <a href="https://vuejs.org" target="_blank"><img style="margin: 10px" src="images/vuejs.png" alt="Vue" title="Vue" height="25" /></a>
   
-<a href="http://nelly.babin.free.fr/site-restaurant-vue/" target="_blank" title="Page du site en Vue">Site en vue</a>
+<a href="http://nelly.babin.free.fr/site-restaurant-vue/" target="_blank" title="Page du site en Vue">Site en `Vue`</a>
 <br /><br />
-<a href="https://github.com/nelbab/refonte-site-perso/blob/main/le-cocotier-en-vue.md" target="_blank" title="Détail des 2 refontes">Détail du développement en Vue </a>  <br/>
+<a href="https://github.com/nelbab/refonte-site-perso/blob/main/le-cocotier-en-vue.md" target="_blank" title="Détail du developpement en Vue">Détail du développement en `Vue` </a>  <br/>
+<br /><br />
+
+## 9. 🌧️ Graphiques dynamiques avec Chart.js
+
+- Découverte de `Chart.js` <a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="images/Chartjs.png" alt="Chartjs" title="Chartjs" height="25" /></a>
+  
+<a href="http://nelly.babin.free.fr/meteo/dynamique.php" target="_blank" title="Histogramme d'un mois">Histogramme d'un mois </a>
+<br /><br />
+<a href="http://nelly.babin.free.fr/meteo/comparaison.php" target="_blank" title="Courbes comparatives de pluie">Courbes comparatives de pluie </a>
+<br /><br />
+<a href="http://nelly.babin.free.fr/meteo/cumuls_annuels.php" target="_blank" title="Cumuls annuels">Cumuls annuels</a>
+<br /><br />
+<a href="https://github.com/nelbab/python-histogrammes/blob/main/graphes-precipitation.md" target="_blank" title="Détail du développement en Chart.js">Détail du développement `Chart.js` </a>  <br/>
 <br /><br />

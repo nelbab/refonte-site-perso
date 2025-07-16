@@ -35,7 +35,7 @@
 ### e. 🛠️ Technologies utilisées : 
 <div align="center"> 
 <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="images/typescript.png" alt="TypeScript" title="TypeScript" height="50" /></a>
-<a href="https://vuejs.org" target="_blank"><img style="margin: 10px" src="images/vuejs.png" alt="Vue" title="React" height="50" /></a>
+<a href="https://vuejs.org" target="_blank"><img style="margin: 10px" src="images/vuejs.png" alt="Vue" title="Vue" height="50" /></a>
 <a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="images/tailwindcss.png" alt="Tailwind CSS" title="Tailwind CSS" height="50" /></a>
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="images/html5.png" alt="HTML5" title="HTML5" height="50" /></a> 
 <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="images/nodejs.png" alt="Node.js" title="Node.js" height="50" /></a>
