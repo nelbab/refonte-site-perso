@@ -87,12 +87,22 @@
 ## 9. 🌧️ Graphiques dynamiques avec Chart.js
 
 - Découverte de `Chart.js` <a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="images/Chartjs.png" alt="Chartjs" title="Chartjs" height="25" /></a>
-  
-<a href="http://nelly.babin.free.fr/meteo/dynamique.php" target="_blank" title="Histogramme d'un mois">Histogramme d'un mois </a>
+
+<a href="http://nelly.babin.free.fr/meteo/dashboard.php" target="_blank" title="Dashboard Météorologique - Vue d'ensemble">📰 Dashboard Météorologique - Vue d'ensemble </a>
 <br /><br />
-<a href="http://nelly.babin.free.fr/meteo/comparaison.php" target="_blank" title="Courbes comparatives de pluie">Courbes comparatives de pluie </a>
+<a href="http://nelly.babin.free.fr/meteo/dynamique.php" target="_blank" title="Histogramme d'un mois">🌦️ Mois dynamique </a>
 <br /><br />
-<a href="http://nelly.babin.free.fr/meteo/cumuls_annuels.php" target="_blank" title="Cumuls annuels">Cumuls annuels</a>
+<a href="http://nelly.babin.free.fr/meteo/comparaison.php" target="_blank" title="Courbes comparatives de pluie">📈 Courbes comparatives de pluie mensuelle</a>
 <br /><br />
-<a href="https://github.com/nelbab/python-histogrammes/blob/main/graphes-precipitation.md" target="_blank" title="Détail du développement en Chart.js">Détail du développement `Chart.js` </a>  <br/>
+<a href="http://nelly.babin.free.fr/meteo/comparaison-annuel.php" target="_blank" title="Courbes Comparaison annuelle de pluie">📊 Comparaison annuelle de pluie</a>
+<br /><br />
+<a href="http://nelly.babin.free.fr/meteo/cumuls_annuels.php" target="_blank" title="Cumuls annuels">📊 Cumuls annuels</a>
+<br /><br />
+<a href="http://nelly.babin.free.fr/meteo/cumuls_mensuels.php" target="_blank" title="Cumuls mensuels">📉 Cumuls mensuels</a>
+<br /><br />
+<a href="http://nelly.babin.free.fr/meteo/donnees_journalieres.php" target="_blank" title="Données journalières">📑 Données journalières</a>
+<br /><br />
+<a href="https://github.com/nelbab/python-histogrammes/blob/main/graphes-precipitation.md" target="_blank" title="Détail du développement en Chart.js">Détail du développement `Chart.js` </a>
+<br /><br />
+<a href="h[ttps://github.com/nelbab/python-histogrammes/blob/main/dashboard-meteo" target="_blank" title="Détail du développement en Chart.js">Détail du développement du dashbord météo </a>  <br/>
 <br /><br />

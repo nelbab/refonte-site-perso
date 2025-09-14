@@ -63,7 +63,8 @@
 <a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="images/php.png" alt="PHP" title="PHP" height="50" /></a>  
 <a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="images/mysql.png" alt="MySQL" title="MySQL" height="50" /></a>  
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="images/js.png" alt="JavaScript" title="JavaScript" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="images/python.png" alt="Python" title="Python" height="50" /></a>  
+<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="images/python.png" alt="Python" title="Python" height="50" /></a>
+<a href="https://www.chartjs.org" target="_blank"><img style="margin: 10px" src="images/Chartjs.png" alt="Chartjs" title="Chartjs" height="50" /></a>   
 <br />
 <a href="https://code.visualstudio.com/" target="_blank"><img style="margin: 10px" src="images/visualStudiocode.png" alt="Visual Studio Code" title="Visual Studio Code" height="50" /></a>
 <a href="https://fr.wikipedia.org/wiki/Merise_(informatique)" target="_blank" title="Merise"><img style="margin: 10px" src="images/merise.png" alt="Merise" title="Merise" height="50" /></a>
