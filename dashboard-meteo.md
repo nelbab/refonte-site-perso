@@ -66,7 +66,43 @@ Un tableau de bord interactif permettant de visualiser et analyser des données 
 
 ---
 
-## 4. 🧩 Exemple de mise en page
+## 4. Gestion des années sans données
+
+Certaines années n'ont aucune données disponible.  
+Afin de conserver une continuité dans les séries temporelles et éviter des erreurs d’analyse, le dashboard applique les règles suivantes :
+
+- ✅ Les années sans données sont **identifiées et exclues** des calculs statistiques (moyennes, records, répartitions). 
+- ⚠️ Cette approche permet d’éviter de fausser les moyennes annuelles ou saisonnières en attribuant une valeur nulle là où il n’y a simplement pas de donnée.  
+- 🔄 Le traitement est dynamique : si de nouvelles données sont ajoutées ultérieurement, l’année est automatiquement intégrée aux calculs.
+```
+// Récupération des années disponibles dans la table
+$sqlAnnees = "
+    SELECT DISTINCT YEAR(date) AS annee
+    FROM precipitations
+    WHERE date IS NOT NULL
+    ORDER BY annee ASC
+";
+$resultAnnees = mysql_query($sqlAnnees, $connect);
+$listeAnneesDisponibles = array();
+
+while ($row = mysql_fetch_assoc($resultAnnees)) {
+    $listeAnneesDisponibles[] = (int)$row['annee'];
+}
+
+// Génération de la plage complète entre année min et max
+$anneeMin = min($listeAnneesDisponibles);
+$anneeMax = max($listeAnneesDisponibles);
+
+for ($annee = $anneeMin; $annee <= $anneeMax; $annee++) {
+    if (!in_array($annee, $listeAnneesDisponibles)) {
+        // Traitement des années vides
+        // => Exclusion des calculs statistiques
+        // => Affichage comme période "sans données"
+        echo "<div class='dashboard-card empty'>Année $annee : aucune donnée</div>";
+    }
+}
+```
+## 5. 🧩 Exemple de mise en page
 
 ### Grille CSS
 ```
@@ -138,13 +174,13 @@ Exemple de structure `HTML`
             <?php endforeach; ?>
         </div>
 ```
-## 5. 🖥️ Captures d'écrans : 
+## 6. 🖥️ Captures d'écrans : 
 
 🎴Ecran des nouveaux graphiques :<br />
 - Dashboard météo
 <img style="margin: 10px" src="images/dashboard-meteo.png" alt="Dashboard météo" title="Dashboard météo" height="200px" />
 
-## 6. 🚀 Compétences mises en avant
+## 7. 🚀 Compétences mises en avant
 - Base de données relationnelle :
 
 Conception et exploitation de données météorologiques.
@@ -167,7 +203,7 @@ mise en valeur des indicateurs météo par blocs et graphiques.
   
 chaque bloc du dashboard est indépendant et réutilisable.
 
-## 7. 🎯 Conclusion
+## 8. 🎯 Conclusion
 
 Ce projet de **Dashboard Météo** illustre ma capacité à :
 

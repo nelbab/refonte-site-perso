@@ -94,11 +94,14 @@
 <br /><br />
 <a href="http://nelly.babin.free.fr/meteo/comparaison.php" target="_blank" title="Courbes comparatives de pluie">📈 Courbes comparatives de pluie mensuelle</a>
 <br /><br />
-<a href="http://nelly.babin.free.fr/meteo/comparaison-annuel.php" target="_blank" title="Courbes Comparaison annuelle de pluie">📊 Comparaison annuelle de pluie</a>
+<a href="http://nelly.babin.free.fr/meteo/comparaison-annuel.php" target="_blank" title="Courbes Comparaison annuelle de pluie">📉 Comparaison annuelle de pluie</a>
 <br /><br />
 <a href="http://nelly.babin.free.fr/meteo/cumuls_annuels.php" target="_blank" title="Cumuls annuels">📊 Cumuls annuels</a>
 <br /><br />
-<a href="http://nelly.babin.free.fr/meteo/cumuls_mensuels.php" target="_blank" title="Cumuls mensuels">📉 Cumuls mensuels</a>
+<a href="http://nelly.babin.free.fr/meteo/cumuls_mensuels.php" target="_blank" title="Cumuls mensuels">📊 Cumuls mensuels</a>
+<br /><br />
+
+<a href="http://nelly.babin.free.fr/meteo/moyenne_mensuelle.php" target="_blank" title="Moyennes mensuelles">📊 Moyennes mensuelles</a>
 <br /><br />
 <a href="http://nelly.babin.free.fr/meteo/donnees_journalieres.php" target="_blank" title="Données journalières">📑 Données journalières</a>
 <br /><br />
