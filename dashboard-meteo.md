@@ -55,14 +55,16 @@ Un tableau de bord interactif permettant de visualiser et analyser des données 
 ### Séries temporelles
 - Données cumulées annuelles.  
 - Tendances récentes (analyse des derniers mois).  
-- Historique sur 10 ans.  
+- Historique sur 10 ans. 
+- Evolution des 5 dernières années 
 - Statistiques avancées (anomalies, ratios, pourcentages).  
 
-### Blocs spécialisés
-- **Précipitations liquides**  
-- **Neige**  
-- **Jours secs**  
-- **Pourcentages** pluie/neige  
+### Bloc entête
+- Période d'étude
+- Nombre d'années
+- Nombre de jours avec relevé
+- Années absentes
+- Dernier jour relevé
 
 ---
 
@@ -71,9 +73,9 @@ Un tableau de bord interactif permettant de visualiser et analyser des données 
 Certaines années n'ont aucune données disponible.  
 Afin de conserver une continuité dans les séries temporelles et éviter des erreurs d’analyse, le dashboard applique les règles suivantes :
 
-- ✅ Les années sans données sont **identifiées et exclues** des calculs statistiques (moyennes, records, répartitions). 
-- ⚠️ Cette approche permet d’éviter de fausser les moyennes annuelles ou saisonnières en attribuant une valeur nulle là où il n’y a simplement pas de donnée.  
-- 🔄 Le traitement est dynamique : si de nouvelles données sont ajoutées ultérieurement, l’année est automatiquement intégrée aux calculs.
+- Les années sans données sont **identifiées et exclues** des calculs statistiques (moyennes, records, répartitions). 
+- Cette approche permet d’éviter de fausser les moyennes annuelles ou saisonnières en attribuant une valeur nulle là où il n’y a simplement pas de donnée.  
+- Le traitement est dynamique : si de nouvelles données sont ajoutées ultérieurement, l’année est automatiquement intégrée aux calculs.
 ```
 // Récupération des années disponibles dans la table
 $sqlAnnees = "
@@ -185,23 +187,19 @@ Exemple de structure `HTML`
 
 Conception et exploitation de données météorologiques.
 
-Écriture de requêtes `SQL` complexes pour extractions, totaux, moyennes, records.
+Ecriture de requêtes `SQL` complexes pour extractions, totaux, moyennes, records.
 
 - Développement backend :
   
-génération dynamique de pages avec `PHP`.
+Génération dynamique de pages avec `PHP`.
 
 - Frontend moderne : 
   
-utilisation avancée de `CSS Grid` pour une interface flexible.
+Utilisation avancée de `CSS Grid` pour une interface flexible.
 
 - Data visualisation : 
 
-mise en valeur des indicateurs météo par blocs et graphiques.
-
-- Organisation modulaire : 
-  
-chaque bloc du dashboard est indépendant et réutilisable.
+Mise en valeur des indicateurs météo par blocs et graphiques.
 
 ## 8. 🎯 Conclusion
 
